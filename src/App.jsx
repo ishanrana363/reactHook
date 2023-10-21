@@ -1,6 +1,8 @@
 // import UseEffect from "./component/UseEffect";
 
-import IncorrectDepen from "./component/IncorrectDepen";
+import DataFetch from "./component/DataFetch";
+
+// import IncorrectDepen from "./component/IncorrectDepen";
 
 // import UseEffectCleanUp from "./component/UseEffectCleanUp";
 
@@ -12,7 +14,8 @@ const App = () => {
         {/* <UseEffect/> */}
         {/* <UseEffectRun/> */}
         {/* <UseEffectCleanUp/> */}
-        <IncorrectDepen/>
+        {/* <IncorrectDepen/> */}
+        <DataFetch/>
     </div>
   );
 };
