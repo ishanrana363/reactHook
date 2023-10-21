@@ -1,6 +1,8 @@
 // import UseEffect from "./component/UseEffect";
 
-import UseEffectCleanUp from "./component/UseEffectCleanUp";
+import IncorrectDepen from "./component/IncorrectDepen";
+
+// import UseEffectCleanUp from "./component/UseEffectCleanUp";
 
 // import UseEffectRun from "./component/UseEffectRun";
 
@@ -9,7 +11,8 @@ const App = () => {
     <div>
         {/* <UseEffect/> */}
         {/* <UseEffectRun/> */}
-        <UseEffectCleanUp/>
+        {/* <UseEffectCleanUp/> */}
+        <IncorrectDepen/>
     </div>
   );
 };
