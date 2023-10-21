@@ -10,7 +10,11 @@ const UseEffectRun = () => {
     }
     useEffect(()=>{
         console.log("UseEffect called")
-        window.addEventListener("mousemove",logMousePossition)
+        window.addEventListener("mousemove",logMousePossition);
+        return ()=>{
+            console.log("component divmount")
+            window.removeEventListener("mousemove",logMousePossition)
+        }
     },[])
         return (
         <div>
